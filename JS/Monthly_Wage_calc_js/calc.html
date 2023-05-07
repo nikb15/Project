@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+    <head>
+        <link rel="stylesheet" href="calc.css">
+        <title>Mortage Calculation</title>
+
+    </head>
+    <body>
+        <div class="loanip">
+            <p>Loan amount 
+                <input type="number" name = "amount" id="amountId">
+            </p>
+        </br>
+        <p>Intrest Rate 
+            <input type="number" name = "ROI" id="ROIId">
+        </p>
+        </br>
+        <p>Duration in Months 
+            <input type="number" name = "duration" id="durationId">
+        </p>
+        </br>
+        <input type="button" value="submit" onclick="CalculateMortage()">   
+        </div>
+        <div id="mortage_ans">
+            <h3>You mortage payemny is: </h3>
+            <h1 id ="mortage_value"></h1>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
